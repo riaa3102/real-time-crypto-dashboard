@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "src"
+version = "0.1.0"
+description = ""
+authors = ["abirr <abir.riahi@usherbrooke.ca>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.9.7 || >3.9.7,<3.12"
+streamlit = "^1.33.0"
+hopsworks = "^3.7"
+python-dotenv = "^1.0.1"
+pandas = "2.1.4"
+plotly = "^5.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
